@@ -13,19 +13,34 @@ const Navbar = () => {
       </div>
 
       <nav className="flex items-center gap-12">
-        <a href="" className="font-medium text-slate-600">
+        <a
+          href=""
+          className="px-3 py-2 font-medium transition-all duration-300 rounded-full text-slate-600 size-fit hover:bg-slate-700/20 active:bg-slate-700/50"
+        >
           Home
         </a>
-        <a href="" className="font-medium text-slate-600">
+        <a
+          href=""
+          className="px-3 py-2 font-medium transition-all duration-300 rounded-full text-slate-600 size-fit hover:bg-slate-700/20 active:bg-slate-700/50"
+        >
           Pemodalan
         </a>
-        <a href="" className="font-medium text-slate-600">
+        <a
+          href=""
+          className="px-3 py-2 font-medium transition-all duration-300 rounded-full text-slate-600 size-fit hover:bg-slate-700/20 active:bg-slate-700/50"
+        >
           Pemasaran
         </a>
-        <a href="" className="font-medium text-slate-600">
+        <a
+          href=""
+          className="px-3 py-2 font-medium transition-all duration-300 rounded-full text-slate-600 size-fit hover:bg-slate-700/20 active:bg-slate-700/50"
+        >
           Konsultasi
         </a>
-        <a href="" className="font-medium text-slate-600">
+        <a
+          href=""
+          className="px-3 py-2 font-medium transition-all duration-300 rounded-full text-slate-600 size-fit hover:bg-slate-700/20 active:bg-slate-700/50"
+        >
           Komunitas
         </a>
       </nav>

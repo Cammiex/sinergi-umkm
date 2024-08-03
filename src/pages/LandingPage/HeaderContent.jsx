@@ -1,6 +1,7 @@
 import img1 from '@/assets/images/landingpage-img1.png';
 import img2 from '@/assets/images/landingpage-img2.png';
-import ornament1 from '@/assets/icon/bg-ornament1.svg';
+import ornament1 from '@/assets/icon/bg-ornament1.png';
+import ornament2 from '@/assets/icon/bg-ornament2.png';
 
 const HeaderContent = () => {
   return (
@@ -60,7 +61,12 @@ const HeaderContent = () => {
       <img
         src={ornament1}
         alt=""
-        className="w-[300px] h-[289px] absolute bottom-[-125px] left-[-76px]"
+        className="w-[300px] h-[289px] absolute top-[671px] right-[1587.5px] object-cover select-none"
+      />
+      <img
+        src={ornament2}
+        alt=""
+        className="w-[156px] h-[36px] absolute bottom-[-78px] right-[32.5px] object-cover object-center select-none"
       />
     </section>
   );
