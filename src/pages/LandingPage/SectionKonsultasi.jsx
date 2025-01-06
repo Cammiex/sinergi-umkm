@@ -87,7 +87,7 @@ const SectionKonsultasi = () => {
             className="z-[2] absolute top-[0px] w-[126px] h-[143px] object-cover object-center"
           />
         </div>
-        <div className="w-[606px] h-[112px] bg-white rounded-[22px] shadow-md z-[2px] px-7 flex flex-col gap-[10px] justify-center">
+        <div className="w-[606px] h-[112px] bg-white rounded-[22px] shadow-md z-[2] px-7 flex flex-col gap-[10px] justify-center">
           <div className="flex items-center gap-[10px]">
             <FontAwesomeIcon
               icon={faCircleCheck}
